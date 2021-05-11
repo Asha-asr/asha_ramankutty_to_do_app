@@ -15,16 +15,16 @@
 
     <div class="container mx-auto" style="width: 800px;">
       <h3 class="text-center mt-5">  TO DO APP </h3>
-        <form action = "to-do-page.html" onsubmit="return validate()">
+        <form action = "to-do-main.html" onsubmit="return validate()" method = "POST">
             <div class="form-group">
               <label for="exampleInputEmail1">Username</label>
-              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter Username" value="admin" required>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter Username" required>
               
               
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Password" value="12345" required>
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
             </div>
             
             <button type="submit" class="btn btn-primary" id ="submit">Submit</button>
