@@ -8,7 +8,7 @@ function validate(){
     }
 
     else if(user_name.value == "admin" || password.value == "12345"){
-        
+        return true;
 
     }
 

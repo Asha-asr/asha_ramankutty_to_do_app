@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="container">
+        <script>
+            var settings = {
+              "async": true,
+              "crossDomain": true,
+              "url": "https://jsonplaceholder.typicode.com/todos",
+              "method": "GET"
+            }
+   
+            $.ajax(settings).done(function (response) {
+              console.log(response);
+            });
+         </script>
+      </div>
+    
     
 </body>
 </html>
